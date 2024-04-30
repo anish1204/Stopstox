@@ -1,0 +1,150 @@
+.Main-content
+{
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.button1{
+    margin-right: 2%;
+}
+.Upload-Button{
+    margin-left: 15%;
+}
+.button1,.Upload-Button{
+    width: 100%;
+    height: 35px;
+    border: 2px solid rgba(161, 103, 208, 0.507);
+    border-radius: 3px;
+}
+.Preview-Page{
+    margin-left: 15%;
+    background-color: rgba(128, 128, 128, 0.363);
+    width: 50%;
+    height: 500px;
+}
+.Image-Container img{
+    height: 50vh;
+    width: 100%;
+}
+.Preview-Page p{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+.Next-Button button{
+    margin-left: 35%;
+    font-size: large !important;
+    width: 5%;
+    height: 50px;
+    background-color: rgba(54, 13, 159, 0.71);
+    color: white;
+    border-radius: 5px;
+    
+}
+form{
+
+    margin-left: 5%;
+    display: flex;
+    justify-content: flex-start;
+}
+.Input-Btn input{
+    width: 100%;
+}
+.submitButton{
+    width: max-content;
+    position: relative;
+    left: 20%;
+    background-color: #fff;
+    border: 2px solid blueviolet ;
+    color: blueviolet;
+    border-radius: 5px;
+    
+}
+#Contianer{
+    width: 100%;
+    display: flex ;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    
+}
+
+.fileInput{
+    width: 35%;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    border-radius: 5px;
+}
+input[type="file"]
+{
+    display: none;
+}
+label{
+    margin-left: 10%;
+    display: inline-block;
+    text-transform: uppercase;
+    color: blueviolet;
+    background-color: #fff;
+    border: 2px solid blueviolet;
+    width: 10%;
+    border-radius: 3px;
+}
+img{
+    margin-top: 5%;
+}
+.Image-Container{
+    
+    margin: 0rem 15rem ;
+    height: 50vh;
+    width: 35%;
+   
+}
+.Next-Button button{
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width: 580px) {
+    body {
+      }
+    label{
+        width: max-content;
+    }
+    .previewComponent{
+        display: contents;
+        flex-direction: column;
+    }
+    .Image-Container{
+        display: contents;
+    }
+    .Container{
+        margin-left: 5rem;
+    }
+    .StepSection{
+        width: 100%;
+        color: gray;
+        margin-top: 3%;
+        font-size: larger;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: -5%;
+    }
+    .ProgressBar {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        position: relative;
+        margin-left: 5%;
+        height: auto;
+        border-radius: 5px;
+        margin-right: 5%;
+    }
+    .Next-Button button{
+       
+        width: auto;
+        margin-left: 0;
+    }
+  }

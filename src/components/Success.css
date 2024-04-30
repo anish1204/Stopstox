@@ -1,0 +1,15 @@
+.Container{
+    margin-left: 15%;
+}
+
+.Container p{
+    font-size: larger;
+    font-style: bold;
+    text-align: left;
+}
+.Box a{
+    color: gray;
+    border: none;
+    font-style: none;
+    text-decoration: none;
+}

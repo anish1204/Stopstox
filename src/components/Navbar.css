@@ -1,0 +1,58 @@
+.StepSection{
+    width: 35%;
+    color: gray;
+    margin-top: 3%;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+
+.ProgressBar{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    position: relative;
+    margin-left: 10%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.StepSection Box{
+    margin-left: 4%;
+}
+
+.large-container{
+    height: 40px;
+    background-color: rgb(254, 255, 255);
+}
+.small-container{
+    height: 5px;
+    background-color: rgb(161, 103, 208);
+}
+
+.Box{
+    width: fit-content;
+    margin-left: 5%;
+}
+
+.Bar{
+    z-index: 1;
+    position: relative;
+    margin-left: 14%;
+    width: 100%;
+    height: 2vh;
+   border-radius: 5px;
+    background-color: gray;
+}
+
+.Completed{
+    position: absolute;
+    margin-left: 14%;
+    width: 80%;
+    height: 2vh;
+    border-radius: 5px;
+    background-color: rgb(51, 232, 51);
+    z-index: 0;
+}
